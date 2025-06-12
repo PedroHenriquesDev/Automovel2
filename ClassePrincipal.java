@@ -6,25 +6,25 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Veiculo> veiculos = new ArrayList<>();
 
-        while (true) {
-            System.out.println("\n1 - Cadastrar novo veículo");
-            System.out.println("2 - Listar veículos");
-            System.out.println("3 - Sair");
-            System.out.print(">> ");
-            int opcao = scanner.nextInt();
-            scanner.nextLine();
+    while (true) {
+        System.out.println("\n1 - Cadastrar novo veículo");
+        System.out.println("2 - Listar veículos");
+        System.out.println("3 - Sair");
+        System.out.print(">> ");
+        int opcao = scanner.nextInt();
+        scanner.nextLine();
 
-            if (opcao == 1) {
-                System.out.print("Tipo (1-Carro, 2-Moto, 3-Caminhão): ");
-                int tipo = scanner.nextInt();
-                scanner.nextLine();
+    if (opcao == 1) {
+        System.out.print("Tipo (1-Carro, 2-Moto, 3-Caminhão): ");
+        int tipo = scanner.nextInt();
+        scanner.nextLine();
 
-                System.out.print("Modelo: ");
-                String modelo = scanner.nextLine();
-                System.out.print("Placa: ");
-                String placa = scanner.nextLine();
-                System.out.print("Ano: ");
-                int ano = scanner.nextInt();
+        System.out.print("Modelo: ");
+        String modelo = scanner.nextLine();
+        System.out.print("Placa: ");
+        String placa = scanner.nextLine();
+        System.out.print("Ano: ");
+        int ano = scanner.nextInt();
 
                 switch (tipo) {
                     case 1:
