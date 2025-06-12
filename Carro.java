@@ -1,5 +1,5 @@
 public class Carro extends Veiculo {
-    private int qtdPortas;
+private int qtdPortas;
 
     public Carro(String placa, String modelo, int ano, int qtdPortas) {
         super(placa, modelo, ano);
