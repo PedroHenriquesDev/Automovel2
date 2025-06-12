@@ -12,7 +12,7 @@ public class Principal {
             System.out.println("3 - Sair");
             System.out.print(">> ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // limpar buffer
+            scanner.nextLine();
 
             if (opcao == 1) {
                 System.out.print("Tipo (1-Carro, 2-Moto, 3-Caminhão): ");
